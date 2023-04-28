@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #404040;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    appearance: none;
+    border: 2px solid #38bdf8;
+}
+
+input:invalid {
+    border-color: #ef4444;
+}
+
+input:focus {
+    outline: none;
+}
+
+span {
+    font-size: 0.9rem;
+    color: #ef4444;
+    position: absolute;
+    bottom: -20px;
+    opacity: 1;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #38bdf8;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0284c7;
+    cursor: pointer;
+}
